@@ -16,8 +16,8 @@ from torch.nn.functional import softmax
 #F:\Rep_Well_Being\Projects_Responsible\Domains\multilabeldomain_dbert_trainingnsaving.py
 #if training for the first time uncomment the following 3 lines below
 from multilabeldomain_dbert_trainingnsaving import run_all
-if __name__ == "__main__":
-    run_all()
+# if __name__ == "__main__":
+run_all()
 
 
 # Load environment variables from .env file
